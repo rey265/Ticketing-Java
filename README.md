@@ -3,15 +3,15 @@ It is a IU-ticketing-website with front-end only. I designed it as a part of my 
 It is available in both dark & light mode.
 
 ## Demo
-http://myshowz.infinityfreeapp.com/
+http://sonrey.shop/
 
 # Glimpse of the Website
 ## Home page in the dark mode
-![Home page in the dark mode](./screenshots/MyShowz_home_page_dark.PNG)
+![Home page in the dark mode](./screenshots/iu_home_page_dark.PNG)
 
 
 ## Home page
-![Home page in the light mode](./screenshots/MyShowz_home_page_light.PNG)
+![Home page in the light mode](./screenshots/iu_home_page_light.PNG)
 
 
 ## Seat selection page 
@@ -22,7 +22,3 @@ http://myshowz.infinityfreeapp.com/
 진짜 디비 연결하다가 죽어버릴뻔
 
 ## Credits
-
-## Bootstrap Layout 
-https://w3layouts.com/template/odd-website-template/
-25달러 주고 샀어요 아임 노 개발자
