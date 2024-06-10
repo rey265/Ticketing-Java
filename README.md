@@ -15,10 +15,10 @@ http://sonrey.shop/
 
 
 ## Seat selection page 
-좌석...콘서트 좌석 하고 싶었는데
+성공
 
 
 ## SignIn-SignUp page 
-진짜 디비 연결하다가 죽어버릴뻔
+RDS 사용
 
 ## Credits
