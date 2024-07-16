@@ -1,6 +1,3 @@
-**목차**
-
-<br>
 
 # Ticket-Java-TeamProject
 
@@ -95,11 +92,8 @@
 ### 🔗 URL
 https://sonrey.notion.site/Ticket-Java-c951b8feb9014e998c81ac796355baba?pvs=4
 
-<img src="">
+<img src="https://github.com/rey265/Ticketing-Java/blob/main/Ticketing-Java-main/Ticket_Java_image/Ticketing-Java-notion">
 
-<br>
-
-<img src="">
 <br>
 
 # 📝 발표 PPT:
