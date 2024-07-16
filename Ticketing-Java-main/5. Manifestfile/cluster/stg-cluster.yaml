@@ -1,0 +1,36 @@
+apiVersion: eksctl.io/v1alpha5
+kind: ClusterConfig
+metadata:
+  name: tjv-stg-cluster
+  region: ap-northeast-2
+vpc:
+  subnets:
+    private:
+      ap-northeast-2a: { id: subnet-09b3db3f474e6483d }
+      ap-northeast-2c: { id: subnet-00598e5766b989b14 }
+
+nodeGroups:
+  - name: TJV-STG-NG-worker1
+    labels: { role: workers }
+    instanceType: t3.medium
+    desiredCapacity: 1
+    minSize: 1
+    maxSize: 4
+    privateNetworking: true
+    subnets:
+      - subnet-09b3db3f474e6483d
+    iam:
+      withAddonPolicies:
+        imageBuilder: true
+  - name: TJV-STG-NG-worker2
+    labels: { role: workers }
+    instanceType: t3.medium
+    desiredCapacity: 1
+    minSize: 1
+    maxSize: 4
+    privateNetworking: true
+    subnets:
+      - subnet-00598e5766b989b14
+    iam:
+      withAddonPolicies:
+        imageBuilder: true

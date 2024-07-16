@@ -1,0 +1,25 @@
+apiVersion: eksctl.io/v1alpha5
+kind: ClusterConfig
+
+metadata:
+  name: tjv-dev-cluster
+  region: ap-northeast-2
+
+vpc:
+  subnets:
+    private:
+      ap-northeast-2a: { id: subnet-03c7a826638c18af3 }
+      ap-northeast-2c: { id: subnet-0df88f168a4ab9633 }
+
+nodeGroups:
+  - name: TJV-DEV-NG-worker1
+    instanceType: t3.medium
+    desiredCapacity: 1
+    minSize: 1
+    maxSize: 1
+    privateNetworking: true
+    subnets:
+      - subnet-03c7a826638c18af3
+    iam:
+      withAddonPolicies:
+        imageBuilder: true
